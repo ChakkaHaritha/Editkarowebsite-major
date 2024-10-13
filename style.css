@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(95, 255, 47);
+    color:maroon;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(37, 178, 86);
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: rgb(192, 49, 111);
+    padding: 20px 0;
+}
+
+header h1 {
+    color:rgb(212, 221, 89);
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: magenta;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(55, 255, 0);
+}
+
+/* Contact Form Section */
+#contact-form {
+    background:rgb(218, 32, 32);
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(110, 165, 42);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contact-form button {
+    background-color: rgb(228, 105, 255);
+    color: cyan;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+    background-color: #ffd700;
+}
+
+#form-status {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+}
+
+/* Footer */
+footer {
+    background-color: cyan;
+    padding: 20px 0;
+    text-align: center;
+    color: #cb0303;
+    margin-top: 160px;
+}
+
+footer p {
+    margin: 30;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #contact-form {
+        width: 90%;
+    }
+}

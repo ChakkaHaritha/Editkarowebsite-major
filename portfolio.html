@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Work</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio">
+        <h2>Video Categories</h2>
+        <div class="category-buttons">
+            <button onclick="showCategory('short-form')">Short Form</button>
+            <button onclick="showCategory('long-form')">Long Form</button>
+            <button onclick="showCategory('gaming')">Gaming Videos</button>
+            <button onclick="showCategory('football')">Football Edits</button>
+            <button onclick="showCategory('ecommerce')">eCommerce Ads</button>
+            <button onclick="showCategory('documentary')">Documentary Style</button>
+            <button onclick="showCategory('color-grading')">Color Grading</button>
+            <button onclick="showCategory('anime')">Anime Videos</button>
+            <button onclick="showCategory('ads')">Ads</button>
+        </div>
+        <div id="video-display" class="video-display">
+            <!-- Videos will be dynamically displayed here based on selected category -->
+        </div>
+        <div class="categories">
+            <div class="category" id="short-form">
+                <h3>Short-Form Videos</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/124ojD_Mb47nT47jREAGuT4B97F-6DUGK/preview" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="category" id="long-form">
+                <h3>Long-Form Videos</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/159CqKZBe0K7TcAe7C9_8YxOqBY2wreRa/preview" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="category" id="gaming">
+                <h3>Gaming Videos</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/13YxW_9aOEQVwZckVR8LZRPK6xAWsxUYe/preview" frameborder="0"allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="category" id="football">
+                <h3>Football Edits</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1LeB1BTVDXUlNPAztEoX7vUFHLITPE8Wy/preview" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="category" id="ads">
+                <h3>Ads & eCommerce</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1J56RJ4AZaT7PpqsSmj6JZH1vhSkeH60r/preview" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="category" id="documentary">
+                <h3>Documentary Style</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1VKakYuT5RbpBcYOVIqp_KXwPzZGtK6fv/preview" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="category" id="anime">
+                <h3>Anime Videos</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1phDRwovujmjm77B6vT0NnVfvX9Fb8EM2/preview" frameborder="0" allowfullscreen></iframe>
+.                </div>
+            </div>
+
+            <div class="category" id="color-grading">
+                <h3>Color Grading</h3>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1Z44prGPhxNrI-EAnlAIjYPBaCcKsl-70/preview" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Editkaro.in. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
